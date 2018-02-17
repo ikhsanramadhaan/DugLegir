@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FDD835"
 
     tools:context="com.example.ikhsanramadhan.duglegir.MainActivity">
 
@@ -20,6 +21,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:orientation="horizontal"
+        android:background="#ef6c00"
         android:paddingHorizontal="35dp"
         android:paddingVertical="16dp">
         <ImageView
@@ -39,12 +41,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="17sp"
-                android:text="Assalamu'alaikum Wr Wb" />
+                android:text="Assalamu'alaikum Wr Wb"
+                android:textColor="#212121"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="M. Ikhsan Ramadhan" />
+                android:text="M. Ikhsan Ramadhan"
+                android:textColor="#212121"/>
 
 
         </LinearLayout>
@@ -59,6 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:layout_marginTop="10dp"
             android:gravity="right"
             android:orientation="vertical">
 
@@ -76,6 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="#F57C00"
                 android:orientation="vertical">
 
                 <ImageView
@@ -90,6 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Jadwal Sholat"
+                    android:textColor="#212121"
                     android:textStyle="bold" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -106,6 +113,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="#F57C00"
                     android:orientation="vertical">
 
                     <ImageView
@@ -113,13 +121,14 @@
                         android:layout_height="60dp"
                         android:background="@drawable/circleshape"
                         android:padding="15dp"
-                        android:src="@drawable/icons8_calendar_48px_2" />
+                        android:src="@drawable/icons8_investment_64px" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Jadwal Sholat"
+                        android:textColor="#212121"
+                        android:text="Statistik Sholat"
                         android:textStyle="bold" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -136,6 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="#F57C00"
                     android:orientation="vertical">
 
                     <ImageView
@@ -143,13 +153,14 @@
                         android:layout_height="60dp"
                         android:background="@drawable/circleshape"
                         android:padding="15dp"
-                        android:src="@drawable/icons8_calendar_48px_2" />
+                        android:src="@drawable/icons8_teacher_hiring_50px" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Jadwal Sholat"
+                        android:text="Panduan"
+                        android:textColor="#212121"
                         android:textStyle="bold" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -163,6 +174,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:layout_marginTop="10dp"
             android:gravity="left"
             android:orientation="vertical">
 
@@ -180,6 +192,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="#F57C00"
                     android:orientation="vertical">
 
                     <ImageView
@@ -187,13 +200,14 @@
                         android:layout_height="60dp"
                         android:background="@drawable/circleshape"
                         android:padding="15dp"
-                        android:src="@drawable/icons8_calendar_48px_2" />
+                        android:src="@drawable/icons8_literature_52px" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Jadwal Sholat"
+                        android:text="Catatan Ibadah"
+                        android:textColor="#212121"
                         android:textStyle="bold" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -210,6 +224,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="#F57C00"
                     android:orientation="vertical">
 
                     <ImageView
@@ -217,13 +232,14 @@
                         android:layout_height="60dp"
                         android:background="@drawable/circleshape"
                         android:padding="15dp"
-                        android:src="@drawable/icons8_calendar_48px_2" />
+                        android:src="@drawable/icons8_compass_48px" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Jadwal Sholat"
+                        android:text="Kiblat Sholat"
+                        android:textColor="#212121"
                         android:textStyle="bold" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -240,6 +256,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="#F57C00"
                     android:orientation="vertical">
 
                     <ImageView
@@ -247,13 +264,14 @@
                         android:layout_height="60dp"
                         android:background="@drawable/circleshape"
                         android:padding="15dp"
-                        android:src="@drawable/icons8_calendar_48px_2" />
+                        android:src="@drawable/icons8_settings_24px_2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Jadwal Sholat"
+                        android:text="Pengaturan"
+                        android:textColor="#212121"
                         android:textStyle="bold" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
