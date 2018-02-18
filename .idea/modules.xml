@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DugLegir.iml" filepath="$PROJECT_DIR$/DugLegir.iml" />
-      <module fileurl="file://I:\matkul\Kuliah Ican\Semester 4\DPH2H2 - PROYEK TINGKAT 2\DugLegir\DugLegir.iml" filepath="I:\matkul\Kuliah Ican\Semester 4\DPH2H2 - PROYEK TINGKAT 2\DugLegir\DugLegir.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://I:\matkul\Kuliah Ican\Semester 4\DPH2H2 - PROYEK TINGKAT 2\DugLegir\app\app.iml" filepath="I:\matkul\Kuliah Ican\Semester 4\DPH2H2 - PROYEK TINGKAT 2\DugLegir\app\app.iml" />
     </modules>
   </component>
 </project>
