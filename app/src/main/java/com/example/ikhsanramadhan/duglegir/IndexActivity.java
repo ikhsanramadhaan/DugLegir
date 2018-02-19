@@ -1,5 +1,17 @@
 package com.example.ikhsanramadhan.duglegir;
+/*
+        Dug Legi Inc License
+        ===========================================
 
+        Copyright (C) 2018 - Jago Sholat
+        All rights reserved
+
+        People 1 : Muhammad Faisal Amir
+        People 2 : M. Ikhsan Ramadhan
+        People 3 : Bryan Rafsanzani
+        Majors   : D3 Teknik Informatika 2016
+        Campus   : Telkom University
+*/
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,7 +38,7 @@ public class IndexActivity extends AppCompatActivity {
         jadwal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                intentJadwal();
             }
         });
 
@@ -75,6 +87,11 @@ public class IndexActivity extends AppCompatActivity {
 
     public void intentKompas() {
         Intent i = new Intent(this, KompasActivity.class);
+        startActivity(i);
+    }
+
+    public void intentJadwal() {
+        Intent i = new Intent(this, JadwalsholatActivity.class);
         startActivity(i);
     }
 

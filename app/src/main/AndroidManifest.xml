@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".CatatanActivity" />
         <activity android:name=".KompasActivity" />
-        <activity android:name=".StatistikActivity"></activity>
+        <activity android:name=".StatistikActivity" />
+        <activity android:name=".JadwalsholatActivity"></activity>
     </application>
 
 </manifest>
